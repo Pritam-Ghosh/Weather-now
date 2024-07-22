@@ -1,0 +1,19 @@
+.input-container{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: darkslategrey;
+    gap: 10px;
+}
+
+.weather-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: calc(100vh - 60px);
+    gap:2rem;
+    line-height: 2;
+    background-color: darkseagreen;
+}
