@@ -22,21 +22,28 @@
     </header>
 
     <main>
-        <div class="weather-container" id="">
+        <div class="weather-container"> 
             <div class="temprature" id="temprature">temp</div>
-            <div class="location-date" id="">
+            <div class="location-date">
                 <div class="location" id="location">location</div>
-                <span class="time" id="">time</span>
-                <span class="day" id="">day</span>
-                <span class="date" id="">date </span>
+                <div class="time-day-date">
+                    <span class="time" id="time">time</span>
+                    <span class="day" id="day">day</span>
+                    <span class="date" id="date">date</span>
+                </div>
             </div>
             <div class="weather-state">
-                <img src="//cdn.weatherapi.com/weather/64x64/day/113.png" alt="" id="">
-                <div class="condition" id="condition"> status</div>
+                <img src="//cdn.weatherapi.com/weather/64x64/day/113.png" alt="" id="weatherIcon">
+                <div class="condition" id="condition">status</div>
+            </div>
+            <div class="additional-info">
+                <div class="humidity" id="humidity">Humidity: </div>
+                <div class="wind" id="wind">Wind Speed: </div>
+                <div class="pressure" id="pressure">Pressure: </div>
             </div>
         </div>
-        
     </main>
+    
 
 </body>
 <script src="script.js"></script>
